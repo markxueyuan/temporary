@@ -1,0 +1,16 @@
+program test
+ 
+  
+contains
+  
+  subroutine abc(x)
+    integer, intent(out) :: x
+  end subroutine abc
+
+  
+  integer ::  x = 3
+  call abc(x)
+  print *, x
+
+  
+program test

@@ -1,0 +1,3 @@
+  subroutine abc(x)
+    integer, intent(out) :: x
+  end subroutine abc
